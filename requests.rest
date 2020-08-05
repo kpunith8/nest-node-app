@@ -1,0 +1,42 @@
+
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "San",
+  "age": 12,
+  "breed": "blak"
+}
+
+###
+
+GET http://localhost:3000/cats/
+
+###
+GET http://localhost:3000/cats/1
+
+###
+PUT http://localhost:3000/cats/1
+Content-Type: application/json
+
+{
+  "name": "San Jose",
+  "age": 13,
+  "breed": "White"
+}
+
+### CatsProvider with services
+
+###
+POST http://localhost:3000/catsProvider
+Content-Type: application/json
+
+{
+  "name": "San Js",
+  "age": 12,
+  "breed": "blak"
+}
+
+###
+GET http://localhost:3000/catsProvider
+
